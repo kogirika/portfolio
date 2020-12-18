@@ -14,36 +14,3 @@ ul,li {
   margin: 0;
 }
 /* リセットCSSここまで */
-
-header {
-  padding: 20px;
-  background-color: lightyellow;
-}
-
-.logo {
-  text-align: center;
-  height: 150px;
-  font-weight: bold;
-  font-size: 100px;
-}
-
-/* 以下からCSSを記述すること */
-
-.lists{
-  display: flex;
-  justify-content: space-around;
-}
-
-.list{
-  font-size: 55px;
-  height: 80px;
-  width: 30vw;
-  border: 1px solid black;
-  text-align: center;
-  list-style: none;
-}
-
-.contact{
-  background-color: black;
-  color: white;
-}

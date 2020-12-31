@@ -14,3 +14,19 @@ ul,li {
   margin: 0;
 }
 /* リセットCSSここまで */
+
+body{
+  background: lightskyblue ;/*保険用*/
+  background: -moz-linear-gradient(top, lightskyblue 0%, skyblue 100%);/*古いFireFox向け*/
+  background: -webkit-linear-gradient(top, lightskyblue 0%,skyblue 100%);/*古いSafariなど向け*/
+  filter:progid:DXImageTransform.Microsoft.Gradient(
+    startColorstr='lightskyblue',
+    endColorstr='skyblue',
+    GradientType=0 );/*IE9以下向け*/
+  background: linear-gradient(to bottom, lightskyblue 0%, skyblue 100%);/*正規の指定*/
+} 
+
+
+header{
+  margin-top: 2px;
+}
